@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Running CUDA \"Axb\" \n\n"
+./Axb

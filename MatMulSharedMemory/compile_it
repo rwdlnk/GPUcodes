@@ -1,0 +1,2 @@
+
+nvcc GenlMatMulShared.cu -o GenlMatMulShared

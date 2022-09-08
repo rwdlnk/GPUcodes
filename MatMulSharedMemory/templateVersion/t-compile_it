@@ -1,0 +1,4 @@
+
+#nvcc MatMul-t.cu -D VTYPE_INT -o MatMul
+#nvcc MatMul-t.cu -D VTYPE_FLOAT -o MatMul
+nvcc MatMul-t.cu -D VTYPE_DOUBLE -o MatMul

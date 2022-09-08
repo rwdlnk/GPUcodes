@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Cuda
+nvcc Axb.cu -lcublas -o Axb 

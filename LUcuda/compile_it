@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Cuda
+nvcc LU.cu -lcublas -o LU 

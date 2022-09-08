@@ -1,0 +1,2 @@
+
+nvcc MatMulShared.cu -o MatMulSh

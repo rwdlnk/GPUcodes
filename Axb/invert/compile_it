@@ -1,0 +1,4 @@
+#!/bin/sh
+
+# Cuda
+nvcc invert.cu -lcublas -o invert 

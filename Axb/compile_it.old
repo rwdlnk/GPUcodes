@@ -1,0 +1,8 @@
+#!/bin/sh
+
+#Plain g++
+#gcc -c TimingCPU.cpp -o TimingCPU.o
+
+# Cuda
+#nvcc -c Axb.cu -o Axb.o
+nvcc Axb.cu -lcublas ../CUDA-Utilities/cublasWrappers.o ../CUDA-Utilities/Utilities.o -o Axb 
